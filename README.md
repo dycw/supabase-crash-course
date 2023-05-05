@@ -1,4 +1,4 @@
-# Supabase Tutorial
+# Supabase Crash Course (The Net Ninja)
 
 https://www.youtube.com/playlist?list=PL4cUxeGkcC9hUb6sHthUEwG7r9VDPBMKO
 

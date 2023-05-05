@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 import supabase from "../config/supabaseClient";
 
 const Create = () => {
@@ -15,7 +14,7 @@ const Create = () => {
     e.preventDefault();
 
     if (!title || !method || !rating) {
-      setFormError("Please fill in all the fields correctly");
+      setFormError("Please fill in all the fields correctly.");
       return;
     }
 
@@ -25,7 +24,7 @@ const Create = () => {
 
     if (error) {
       console.log(error);
-      setFormError("Please fill in all the fields correctly");
+      setFormError("Please fill in all the fields correctly.");
     }
     if (data) {
       console.log(data);
@@ -55,7 +54,7 @@ const Create = () => {
         <label htmlFor="rating">Rating:</label>
         <input
           type="number"
-          id="method"
+          id="rating"
           value={rating}
           onChange={(e) => setRating(e.target.value)}
         />
